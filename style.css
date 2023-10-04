@@ -1,0 +1,115 @@
+* {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   box-sizing: border-box;
+}
+
+header {
+   background-color: #FFCD9E;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 65vh;
+   font-family: inter;
+}
+
+.left {
+   margin: 40px 140px;
+   padding: 40px;
+}
+
+.left p {
+   padding: 21px 0px;
+   text-align: left;
+   margin-right: 107px;
+   color: #282828;
+}
+
+.left h4 {
+   margin: 20px 0;
+   color: #484848;
+}
+
+.left h6 {
+   margin: 20px;
+   color: #282828;
+}
+
+.left input {
+   padding: 10px 30px 10px 10px;
+   border-radius: 5px;
+   border: 3px solid black;
+   font-family: inter;
+   font-weight: bold;
+}
+
+.left .btn {
+   background-color: #282828;
+   color: white;
+   padding: 10px 30px;
+   border-radius: 5px;
+   cursor: pointer;
+   font-family: inter;
+   font-weight: bold;
+}
+
+.left h6 {
+   color: white;
+   font-weight: 500;
+}
+
+.right {
+   margin: 40px 70px;
+}
+
+.right img {
+   height: 400px;
+   width: 400px;
+}
+
+.footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: #282828;
+   color: white;
+   height: 35vh;
+   font-family: inter;
+}
+
+li a {
+   cursor: pointer;
+}
+
+.left_foo {
+   margin: 40px 185px;
+}
+
+.left_foo ul li {
+   padding: 7px;
+}
+
+.left_foo ul li a {
+   text-decoration: none;
+   color: white;
+}
+
+
+.right_foo {
+   margin: 43px 185px;
+   text-align: right;
+}
+
+.right_foo ul li {
+   padding: 7px;
+}
+
+.right_foo ul li a {
+   text-decoration: none;
+   color: white;
+}
+
+.footer ul li a img{
+   height: 25px;
+}
